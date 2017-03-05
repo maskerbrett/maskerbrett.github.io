@@ -1,0 +1,135 @@
+Skip to content
+
+Search…
+All gists
+GitHub
+New gist
+@akikomasker
+  Star 0
+  Fork 0
+  @stephanielingwoodstephanielingwood/top_nav.css
+Created a year ago
+Embed
+<script src="https://gist.github.com/stephanielingwood/2bba1fe384d32c68ff52.js"></script>
+  Download ZIP
+ Code  Revisions 1
+CSS styling template for a nav bar on the top
+Raw
+ top_nav.css
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+       width: 100%;
+       height: 100%;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       background-image: url('./img/img_background.jpg');
+       background-attachment: fixed;
+    }
+
+    header {
+        background-color: #FF530D;
+        padding: 30px;
+        border: 20px soild #000000;
+        /*margin: 50px;*/
+        font-size:50px;
+        font-family: sans-serif;
+        display: block;
+
+    }
+    nav {
+        display: inline-block;
+
+    }
+    nav ul {
+
+            padding:30px;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: 30px;
+            list-style-type: none;
+            font-size:50px;
+            font-family: sans-serif;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 30px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        font-size: 20px;
+
+    }
+    article{
+      width: 73%;
+      display: inline-block;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+
+    p{
+      display: inline-block;
+      font-size: 30px;
+      font-family: sans-serif;
+      margin-top:20px;
+      margin-bottom:45px;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+
+    img {
+    height: 400px;
+}
+
+
+div{
+  background-color: white;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ @akikomasker
+
+
+
+Write  Preview
+
+Leave a comment
+Attach files by dragging & dropping,  Choose Files selecting them, or pasting from the clipboard.
+ Styling with Markdown is supported
+Comment
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
